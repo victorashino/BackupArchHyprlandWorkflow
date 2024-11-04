@@ -1,0 +1,15 @@
+{
+  "Contacts": {
+    "Contacts": "Contatos",
+    "SelectContatctList": "Selecione da sua lista de contatos salvos para quem você quer fazer o Pix.",
+    "MyContacts": "Meus Contatos",
+    "PixKeyCoppy": "Chave Pix copiada com sucesso!",
+    "DelectContact": "Contato deletado com sucesso"
+  },
+  "Extract": {
+    "Agency": "Agência:",
+    "Account": "Conta:",
+    "AccountBalance": "Saldo em Conta:",
+    "MonetarySymbol": "R$"
+  }
+}

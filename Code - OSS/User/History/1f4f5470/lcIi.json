@@ -1,0 +1,8 @@
+{
+    "editor.minimap.enabled": false,
+    "explorer.confirmDelete": false,
+    "window.menuBarVisibility": "toggle",
+    "workbench.colorTheme": "Void",
+    "symbols.hidesExplorerArrows": false,
+    "workbench.iconTheme": "symbols"
+}

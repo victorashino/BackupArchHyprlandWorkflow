@@ -1,0 +1,29 @@
+2024-11-01 16:51:35.352 [info] Started local extension host with pid 719740.
+2024-11-01 16:51:38.148 [info] [perf] Render performance baseline is 44ms
+2024-11-01 16:51:50.676 [warning] [backup tracker] suspended, ignoring register event vscode-userdata:/home/bicutoru/.config/Code%20-%20OSS/User/settings.json 
+2024-11-01 16:51:51.422 [info] Started local extension host with pid 719796.
+2024-11-01 16:51:54.265 [info] [perf] Render performance baseline is 48ms
+2024-11-01 16:55:32.804 [error] [text file model] handleSaveError(1) - exit - resulted in a save error: Error: Unable to write file '/home/bicutoru/.config/waybar/config.jsonc' (Error: File Modified Since) file:///home/bicutoru/.config/waybar/config.jsonc
+2024-11-01 16:55:40.590 [error] [text file model] handleSaveError(1) - exit - resulted in a save error: Error: Unable to write file '/home/bicutoru/.config/waybar/config.jsonc' (Error: File Modified Since) file:///home/bicutoru/.config/waybar/config.jsonc
+2024-11-01 17:03:09.023 [warning] [backup tracker] suspended, ignoring register event vscode-userdata:/home/bicutoru/.config/Code%20-%20OSS/User/settings.json 
+2024-11-01 17:03:09.031 [warning] [backup tracker] suspended, ignoring unregister event vscode-userdata:/home/bicutoru/.config/Code%20-%20OSS/User/settings.json 
+2024-11-01 17:03:09.033 [warning] [backup tracker] suspended, ignoring register event vscode-userdata:/home/bicutoru/.config/Code%20-%20OSS/User/settings.json 
+2024-11-01 17:03:09.037 [warning] [backup tracker] suspended, ignoring unregister event vscode-userdata:/home/bicutoru/.config/Code%20-%20OSS/User/settings.json 
+2024-11-01 17:03:09.056 [warning] [backup tracker] suspended, ignoring register event vscode-userdata:/home/bicutoru/.config/Code%20-%20OSS/User/settings.json 
+2024-11-01 17:03:09.059 [warning] [backup tracker] suspended, ignoring unregister event vscode-userdata:/home/bicutoru/.config/Code%20-%20OSS/User/settings.json 
+2024-11-01 17:03:09.931 [warning] [lifecycle] onBeforeShutdown is taking a long time, pending operations: veto.backups
+2024-11-01 17:03:12.027 [warning] [backup tracker] suspended, ignoring register event vscode-userdata:/home/bicutoru/.config/Code%20-%20OSS/User/settings.json 
+2024-11-01 17:03:12.033 [warning] [backup tracker] suspended, ignoring unregister event vscode-userdata:/home/bicutoru/.config/Code%20-%20OSS/User/settings.json 
+2024-11-01 17:03:12.035 [warning] [backup tracker] suspended, ignoring register event vscode-userdata:/home/bicutoru/.config/Code%20-%20OSS/User/settings.json 
+2024-11-01 17:03:12.041 [warning] [backup tracker] suspended, ignoring unregister event vscode-userdata:/home/bicutoru/.config/Code%20-%20OSS/User/settings.json 
+2024-11-01 17:03:12.044 [warning] [backup tracker] suspended, ignoring register event vscode-userdata:/home/bicutoru/.config/Code%20-%20OSS/User/settings.json 
+2024-11-01 17:03:12.050 [warning] [backup tracker] suspended, ignoring unregister event vscode-userdata:/home/bicutoru/.config/Code%20-%20OSS/User/settings.json 
+2024-11-01 17:03:12.489 [warning] [backup tracker] suspended, ignoring register event vscode-userdata:/home/bicutoru/.config/Code%20-%20OSS/User/settings.json 
+2024-11-01 17:03:12.501 [warning] [backup tracker] suspended, ignoring unregister event vscode-userdata:/home/bicutoru/.config/Code%20-%20OSS/User/settings.json 
+2024-11-01 17:03:12.507 [warning] [backup tracker] suspended, ignoring register event vscode-userdata:/home/bicutoru/.config/Code%20-%20OSS/User/settings.json 
+2024-11-01 17:03:12.520 [warning] [backup tracker] suspended, ignoring unregister event vscode-userdata:/home/bicutoru/.config/Code%20-%20OSS/User/settings.json 
+2024-11-01 17:03:12.540 [warning] [backup tracker] suspended, ignoring register event vscode-userdata:/home/bicutoru/.config/Code%20-%20OSS/User/settings.json 
+2024-11-01 17:03:12.548 [warning] [backup tracker] suspended, ignoring unregister event vscode-userdata:/home/bicutoru/.config/Code%20-%20OSS/User/settings.json 
+2024-11-01 17:03:14.480 [info] [lifecycle]: Shutdown was prevented by final veto (id: veto.backups)
+2024-11-02 04:15:37.430 [warning] [backup tracker] suspended, ignoring register event vscode-userdata:/home/bicutoru/.config/Code%20-%20OSS/User/settings.json 
+2024-11-02 04:15:37.451 [warning] [backup tracker] suspended, ignoring register event vscode-userdata:/home/bicutoru/.config/Code%20-%20OSS/User/settings.json 

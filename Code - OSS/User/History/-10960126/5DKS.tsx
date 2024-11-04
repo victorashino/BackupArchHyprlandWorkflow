@@ -1,0 +1,63 @@
+import { colors } from '@/src/styles/global';
+import fonts from "@/src/styles/fonts";
+import { FontAwesome6 } from '@expo/vector-icons';
+import { router } from 'expo-router';
+import { Image, ScrollView, StatusBar, StyleProp, Text, TouchableOpacity, View, ViewStyle } from "react-native";
+import { styles } from './style';
+import globalFonts from '@/src/styles/fonts';
+import Line from '@/src/components/Line';
+
+const CloseAccount = () => {
+
+    const LineCloseAccount = (title: string, style: StyleProp<ViewStyle> = {
+        flexDirection: "row",
+        alignItems: "center", // Alinhar itens centralmente
+        justifyContent: "space-between", // Espaçamento adequado entre o título e a linha
+        marginVertical: 10, // Espaçamento entre os elementos
+    }) => {
+        return (
+            <View style={style}>
+                <Text style={globalFonts.regular16}>
+                    {title}
+                </Text>
+                <Line />
+            </View>
+        );
+    };
+
+    return (
+        <ScrollView
+            showsVerticalScrollIndicator={false}
+            style={{ flex: 1 }}>
+            <StatusBar barStyle="dark-content" />
+            <View style={styles.header}>
+                <TouchableOpacity onPress={() => router.replace('/(home)/profile')}>
+                    <FontAwesome6 name="x" size={20} color={colors.gray} />
+                </TouchableOpacity>
+                <Text style={[styles.title, fonts.bold24]}>Encerrar minha conta</Text>
+            </View>
+
+            <View style={styles.containerRobo}>
+                <View style={styles.containerTextRobo}>
+                    <Text style={globalFonts.semiBold16Yellow}>É uma pena que esteja</Text>
+                    <Text style={globalFonts.semiBold16Yellow}>nos deixando... :(</Text>
+                </View>
+                <Image
+                    style={{ height: 150, width: 150, objectFit: "contain" }}
+                    source={require("@/src/assets/pages/auth/robotriste.png")}
+                />
+            </View>
+
+            <Text style={[fonts.regular16 , { alignSelf: "center" }]}>
+                Para solicitar o encerramento de sua conta, lembre-se:
+            </Text>
+
+            {/* Passar o título para a função LineCloseAccount */}
+            {LineCloseAccount("Você precisa quitar todos os débitos pendentes.")}
+            {LineCloseAccount("Se tiver saldo, ele será transferido para sua conta bancária.")}
+
+        </ScrollView>
+    );
+};
+
+export default CloseAccount;

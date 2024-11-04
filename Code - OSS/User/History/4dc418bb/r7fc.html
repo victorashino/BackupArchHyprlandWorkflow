@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>System Info</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <p>SYSTEM INFO</p>
+    <div class="info">
+        <div><strong>Operating System:</strong> {{OS}}</div>
+        <div><strong>Kernel:</strong> {{KERNEL}}</div>
+        <div><strong>Shell:</strong> {{SHELL}}</div>
+        <div><strong>Desktop Environment:</strong> {{DE}}</div>
+        <div><strong>Terminal:</strong> {{TERMINAL}}</div>
+        <div><strong>System Uptime:</strong> {{UPTIME}}</div>
+    </div>
+
+    <!-- Adicionando o relógio e o calendário -->
+    <div class="clock-calendar">
+        <div id="clock"></div>
+        <div id="calendar"></div>
+    </div>
+
+    <script src="script.js"></script> <!-- Adicione seu script aqui -->
+    <script>
+        // Função para atualizar o relógio
+        function updateClock() {
+            const now = new Date();
+            const hours = String(now.getHours()).padStart(2, '0');
+            const minutes = String(now.getMinutes()).padStart(2, '0');
+            const seconds = String(now.getSeconds()).padStart(2, '0');
+            document.getElementById('clock').innerText = `${hours}:${minutes}:${seconds}`;
+        }
+
+        // Função para atualizar o calendário
+        function updateCalendar() {
+            const now = new Date();
+            const options = { year: 'numeric', month: 'long', day: 'numeric', weekday: 'long' };
+            document.getElementById('calendar').innerText = now.toLocaleDateString(undefined, options);
+        }
+
+        // Atualiza o relógio e o calendário a cada segundo
+        setInterval(() => {
+            updateClock();
+            updateCalendar();
+        }, 1000);
+
+        // Chamada inicial para exibir imediatamente
+        updateClock();
+        updateCalendar();
+    </script>
+</body>
+</html>

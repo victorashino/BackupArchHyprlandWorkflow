@@ -1,0 +1,95 @@
+{
+    "Initial": {
+        "openAccount": "Ouvrir un compte",
+        "alreadyHaveAccount": "J'ai déjà un compte",
+        "needHelp": "Besoin d'aide ?"
+    },
+    "Register": {
+        "Notice": {
+            "title": "Lisez, c'est important !",
+            "welcome": "Nous sommes ravis de vous accueillir. Ici, l'excellence en services financiers rencontre l'exclusivité pour nos invités les plus spéciaux.",
+            "accountOpening1": "L'ouverture d'un compte chez nous est un privilège exclusif réservé à ceux qui ont reçu notre précieux code d'invitation.",
+            "accountOpening2": "Si vous êtes l'un de ces privilégiés, suivez les étapes pour commencer le processus et débloquer l'accès aux avantages exclusifs qui vous attendent.",
+            "commitment": "Nous nous engageons à offrir des solutions financières personnalisées, conçues pour répondre à vos besoins individuels avec une commodité et une efficacité maximales.",
+            "welcomeMessage": "Bienvenue dans notre communauté exclusive. Si vous avez été invité, faites le premier pas vers une nouvelle expérience financière.",
+            "notInvited1": "Pas encore",
+            "notInvited2": "invité",
+            "haveCode1": "J'ai le code",
+            "haveCode2": "d'invitation"
+        },
+        "Code": {
+          "inviteCodeInstruction": "Entrez le code d'invitation reçu dans votre email.",
+          "proceed": "Procéder",
+          "invalidCode": "*Code incorrect, essayez à nouveau."
+        }
+    },
+
+    "Pix": {
+      "Index": {
+        "title": "Zone Pix",
+        "description": "Effectuez l'envoi et la réception de paiements à tout moment, 24 heures sur 24, 7 jours sur 7.",
+        "placeholder": "Clé Pix",
+        "keyType": "Téléphone, CPF/CNPJ, e-mail, clé aléatoire ou",
+        "alsoUse": "UTILISEZ ÉGALEMENT",
+        "button": {
+          "send": "Envoyer pix",
+          "savedContacts": "Mes contacts enregistrés",
+          "myPixKeys": "Mes clés Pix",
+          "deposit": "Déposer",
+          "payWithQrCode": "Payer avec QR code",
+          "pixCopyPaste": "Pix copier-coller"
+        },
+        "lastTransfers": "Derniers transferts :",
+        "modal": {
+          "message": "Sélectionnez le type de clé :",
+          "cpf": "CPF",
+          "phone": "Téléphone"
+        }
+      },
+      "InfoPaymentPix": {
+        "title": "Zone Pix",
+        "accountBalance": "Solde du compte : ",
+        "verifyInfos": "Vérifiez les informations du destinataire de votre PIX ci-dessous :",
+        "to": "À : ",
+        "cpf_cnpj": "CPF/CNPJ : ",
+        "bankLabel": "Bco",
+        "pixKey": "Clé Pix",
+        "saveContact": "Enregistrer ce contact pour de futurs transferts",
+        "defineValue": "Définir le montant :",
+        "currencyCode": "R$",
+        "placeholderAmount": "0,00",
+        "addInfo": "Souhaitez-vous ajouter des informations sur le reçu ?",
+        "descriptionPlaceholder": "Description",
+        "proceedToReview": "Continuer vers la révision"
+      },
+      "RevisionPaymentPix": {
+        "title": "Révision",
+        "instructions": "Pour continuer, vérifiez et confirmez les informations.",
+        "warning": {
+          "attentionImage": "@/assets/home/areaPix/atention1.png",
+          "exclamationImage": "@/assets/home/areaPix/exclamacao.png",
+          "text": "Avant de finaliser l'opération, confirmez soigneusement les informations, car une fois le débit effectué, il ne pourra pas être annulé."
+        },
+        "info": {
+          "to": "À : ",
+          "cpfCnpj": "CPF/CNPJ : ",
+          "bank": "Bco ",
+          "pixKey": "Clé Pix : ",
+          "value": "Montant : ",
+          "date": "Date : "
+        },
+        "button": {
+          "text": "Continuer vers la révision"
+        }
+      }
+    },
+    "Companies": {},
+    "Deposit": {},
+    "Extract": {},
+    "Notification": {},
+    "Payment": {},
+    "ResendRegistration": {},
+    "Tabs": {},
+    "TedTransfer": {}
+  }
+  

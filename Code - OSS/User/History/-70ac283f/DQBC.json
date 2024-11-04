@@ -1,0 +1,71 @@
+{
+    "Pix": {
+      "Index": {
+        "title": "Zone Pix",
+        "description": "Effectuez l'envoi et la réception de paiements à tout moment, 24 heures sur 24, 7 jours sur 7.",
+        "placeholder": "Clé Pix",
+        "keyType": "Téléphone, CPF/CNPJ, e-mail, clé aléatoire ou",
+        "alsoUse": "UTILISEZ ÉGALEMENT",
+        "button": {
+          "send": "Envoyer pix",
+          "savedContacts": "Mes contacts enregistrés",
+          "myPixKeys": "Mes clés Pix",
+          "deposit": "Déposer",
+          "payWithQrCode": "Payer avec QR code",
+          "pixCopyPaste": "Pix copier-coller"
+        },
+        "lastTransfers": "Derniers transferts :",
+        "modal": {
+          "message": "Sélectionnez le type de clé :",
+          "cpf": "CPF",
+          "phone": "Téléphone"
+        }
+      },
+      "InfoPaymentPix": {
+        "title": "Zone Pix",
+        "accountBalance": "Solde du compte : ",
+        "verifyInfos": "Vérifiez les informations du destinataire de votre PIX ci-dessous :",
+        "to": "À : ",
+        "cpf_cnpj": "CPF/CNPJ : ",
+        "bankLabel": "Bco",
+        "pixKey": "Clé Pix",
+        "saveContact": "Enregistrer ce contact pour de futurs transferts",
+        "defineValue": "Définir le montant :",
+        "currencyCode": "R$",
+        "placeholderAmount": "0,00",
+        "addInfo": "Souhaitez-vous ajouter des informations sur le reçu ?",
+        "descriptionPlaceholder": "Description",
+        "proceedToReview": "Continuer vers la révision"
+      },
+      "RevisionPaymentPix": {
+        "title": "Révision",
+        "instructions": "Pour continuer, vérifiez et confirmez les informations.",
+        "warning": {
+          "attentionImage": "@/assets/home/areaPix/atention1.png",
+          "exclamationImage": "@/assets/home/areaPix/exclamacao.png",
+          "text": "Avant de finaliser l'opération, confirmez soigneusement les informations, car une fois le débit effectué, il ne pourra pas être annulé."
+        },
+        "info": {
+          "to": "À : ",
+          "cpfCnpj": "CPF/CNPJ : ",
+          "bank": "Bco ",
+          "pixKey": "Clé Pix : ",
+          "value": "Montant : ",
+          "date": "Date : "
+        },
+        "button": {
+          "text": "Continuer vers la révision"
+        }
+      }
+    },
+    "Companies": {},
+    "Deposit": {},
+    "Extract": {},
+    "Notification": {},
+    "Payment": {},
+    "Register": {},
+    "ResendRegistration": {},
+    "Tabs": {},
+    "TedTransfer": {}
+  }
+  

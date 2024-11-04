@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="./logo_blue.png"/>
+    </header>
+    <div id="amount">
+        R$ ${amount || N/A}
+    </div>
+    <div id="line"></div>
+    <p id="amountText">Valor do pagamento</p>
+    <div>
+        <div>
+            <p>ID da transação: </p> <p class="value">${id}</p>
+        </div>
+        <div>
+            <p>Data de emissão: </p> <p class="value">${date}</p>
+        </div>
+        <div id="line"></div>
+        <p>Nome do favorecido: </p> <p class="value">${name}</p>
+        <p>Vencimento: </p> <p class="value">${duoDate}</p>
+        <p>Código de barras: </p> <p class="value">${barcode}</p>
+    </div>
+</body>
+</html>

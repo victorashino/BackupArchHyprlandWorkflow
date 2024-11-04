@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Alinha verticalmente */
+    align-items: center; /* Alinha horizontalmente */
+    height: 100vh; /* Usa 100% da altura da viewport */
+    margin: 0; /* Remove a margem padrão do body */
+    background-color: #000; /* Mantém o fundo preto */
+}
+
+.ascii-art {
+    text-align: center; /* Centraliza o texto dentro deste contêiner */
+    margin-top: 20px; /* Adiciona um espaço acima do ASCII art */
+    color: #0f0; /* Define a cor do texto, se desejado */
+}
+
+p {
+    color: #0f0;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 20px; 
+}
+
+.info {
+    margin-top: 20px;
+    color: #0f0;
+    font-size: 1.2em;
+    margin: 20px; 
+}
+
+.info div {
+    margin-bottom: 10px;
+    padding: 8px;
+    background: #5454543b;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    max-width: 320px;
+}
+
+.clock-calendar {
+    margin: 10px 20px 20px 20px;        /* Espaço entre a info e o relógio/calendário */
+    color: #0f0;
+    font-size: 1.4em;
+}
+
+#clock {
+    font-weight: bold;       /* Estilo do relógio */
+}
+
+#calendar {
+    margin: 10px 20px 20px 0px;       /* Espaço entre o relógio e o calendário */
+}

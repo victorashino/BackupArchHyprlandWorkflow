@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Donut Animation</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            font-family: monospace;
+            background-color: #282c34;
+            color: white;
+            text-align: center;
+        }
+
+        pre {
+            font-size: 1.5em;
+            line-height: 0.5em;
+            white-space: pre;
+            animation: spin 0.1s linear infinite;
+            margin-bottom: 20px;
+        }
+
+        @keyframes spin {
+            0% { transform: rotateY(0deg); }
+            100% { transform: rotateY(360deg); }
+        }
+
+        .info {
+            border: 1px solid #fff;
+            padding: 20px;
+            border-radius: 5px;
+            background-color: rgba(255, 255, 255, 0.1);
+            width: 300px; /* Ajuste a largura conforme necessário */
+        }
+    </style>
+</head>
+<body>
+    <pre id="donut"></pre>
+    <p>SYSTEM INFO</p>
+    <div class="info">
+        <div><strong>Operating System:</strong> {{OS}}</div>
+        <div><strong>Kernel:</strong> {{KERNEL}}</div>
+        <div><strong>Shell:</strong> {{SHELL}}</div>
+        <div><strong>Desktop Environment:</strong> {{DE}}</div>
+        <div><strong>Terminal:</strong> {{TERMINAL}}</div>
+        <div><strong>System Uptime:</strong> {{UPTIME}}</div>
+    </div>
+
+    <script>
+        let A = 0, B = 0;
+        const donutElement = document.getElementById('donut');
+
+        function renderDonut() {
+            let output = Array(1760).fill(' ');
+            let z = Array(1760).fill(0);
+
+            for (let j = 0; j < 6.28; j += 0.07) {
+                for (let i = 0; i < 6.28; i += 0.02) {
+                    let c = Math.sin(i);
+                    let d = Math.cos(j);
+                    let e = Math.sin(A);
+                    let f = Math.sin(j);
+                    let g = Math.cos(A);
+                    let h = d + 2;
+                    let D = 1 / (c * h * e + f * g + 5);
+                    let l = Math.cos(i);
+                    let m = Math.cos(B);
+                    let n = Math.sin(B);
+                    let t = c * h * g - f * e;
+                    let x = 40 + 30 * D * (l * h * m - t * n);
+                    let y = 12 + 15 * D * (l * h * n + t * m);
+                    let o = x + 80 * y;
+                    let N = 8 * ((f * e - c * d * g) * m - c * d * e - f * g - l * d * n);
+
+                    if (22 > y && y > 0 && x > 0 && 80 > x && D > z[o]) {
+                        z[o] = D;
+                        output[o] = ".,-~:;=!*#$@"[N > 0 ? N : 0];
+                    }
+                }
+            }
+
+            donutElement.textContent = output.join('');
+            A += 0.04;
+            B += 0.02;
+
+            requestAnimationFrame(renderDonut);
+        }
+
+        renderDonut();
+    </script>
+</body>
+</html>

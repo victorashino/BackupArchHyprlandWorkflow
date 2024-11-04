@@ -1,23 +1,30 @@
 * {
     font: "Figtree 13";
     g-spacing: 10px;
-    g-margin: 0;
+    g-margin: 4px;
     b-color: #000000FF;
     fg-color: #FFFFFFFF;
     fgp-color: #888888FF;
-    b-radius: 8px;
+    b-radius: 5px;
     g-padding: 8px;
     hl-color: #FFFFFFFF;
     hlt-color: #000000FF;
     alt-color: #111111FF;
-    wbg-color: #000000CC;
+    wbg-color: #000000AA;
     w-border: 2px solid;
     w-border-color: #FFFFFFFF;
-    w-padding: 12px;
+    w-padding: 8px;
+    fullscreen: false;
 }
 
 configuration {
-    modi: "drun";
+    location: 0;
+    anchor: "center";
+    width: 30%;
+    lines: 7;
+    x-offset: 0;
+    y-offset: 0;
+    fullscreen: false;
     show-icons: true;
     display-drun: "";
 }
@@ -37,9 +44,14 @@ window {
     width: 450px;
     border-radius: @b-radius;
     background-color: @wbg-color;
-    border: @w-border;
-    border-color: @w-border-color;
     padding: @w-padding;
+    fullscreen: false;
+    width: 30%;
+    lines: 7;
+    location: 0;
+    anchor: "center";
+    x-offset: 0;
+    y-offset: 0;
 }
 
 prompt {

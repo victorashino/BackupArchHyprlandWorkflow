@@ -1,0 +1,22 @@
+{
+    "languageserver": {
+        "clangd": {
+            "command": "clangd",
+            "rootPatterns": [".git/", "compile_flags.txt", "compile_commands.json"],
+            "filetypes": ["c", "cc", "cpp", "c++", "objc", "objcpp"]
+        },
+        "explorer.width": 30,
+        "explorer.icon.enableNerdfont": true,
+        "explorer.previewAction.onHover": false,
+        "explorer.keyMappings.global": {
+            "<cr>": [
+                "expandable?",
+                "expand",
+                "open"
+            ],
+            "v": "open:vsplit",
+            "h": "open:split"
+        },
+        "explorer.git.enable": true
+    }
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Tab</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <pre>
+        ____________________ 
+        < é nois que voa lek >
+         -------------------- 
+                \   ^__^
+                 \  (oo)\_______
+                    (__)\       )\/\
+                        ||----w |
+                        ||     ||
+    </pre>
+    <p>SYSTEM INFO</p>
+    <div class="info">
+        <div><strong>Operating System:</strong> Arch Linux x86_64</div>
+        <div><strong>Kernel:</strong> 6.10.4-arch2-1</div>
+        <div><strong>Shell:</strong> bash 5.2.32</div>
+        <div><strong>Desktop Environment:</strong> Hyprland</div>
+        <div><strong>Terminal:</strong> kitty</div>
+        <div><strong>System Uptime:</strong> 286.90 hours</div>
+    </div>
+
+    <div class="clock-calendar">
+        <div id="clock"></div>
+        <div id="calendar"></div>
+    </div>
+
+    <script src="script.js"></script>
+    <script>
+        function updateClock() {
+            const now = new Date();
+            const hours = String(now.getHours()).padStart(2, '0');
+            const minutes = String(now.getMinutes()).padStart(2, '0');
+            const seconds = String(now.getSeconds()).padStart(2, '0');
+            document.getElementById('clock').innerText = `${hours}:${minutes}:${seconds}`;
+        }
+
+        function updateCalendar() {
+            const now = new Date();
+            const options = { year: 'numeric', month: 'long', day: 'numeric', weekday: 'long' };
+            document.getElementById('calendar').innerText = now.toLocaleDateString(undefined, options);
+        }
+
+        setInterval(() => {
+            updateClock();
+            updateCalendar();
+        }, 1000);
+
+        updateClock();
+        updateCalendar();
+    </script>
+</body>
+</html>

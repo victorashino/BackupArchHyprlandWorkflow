@@ -1,0 +1,29 @@
+{
+  "Contacts": {
+    "Contacts": "Contatos",
+    "SelectContatctList": "Selecione da sua lista de contatos salvos para quem você quer fazer o Pix.",
+    "MyContacts": "Meus Contatos",
+    "PixKeyCoppy": "Chave Pix copiada com sucesso!",
+    "DelectContact": "Contato deletado com sucesso"
+  },
+  "Extract": {
+    "Agency": "Agência:",
+    "Account": "Conta:",
+    "AccountBalance": "Saldo em Conta:",
+    "MonetarySymbol": "R$",
+    "NoTransactions": "Nenhuma transação encontrada nesse período.",
+    "Modal": {
+      "FilterByDate": "FILTRAR POR DATA",
+      "SelectPeriod": "Selecione um período",
+      "7Days": "7 dias",
+      "15Days": "15 dias",
+      "30Days": "30 dias",
+      "90Days": "90 dias",
+      "SelectReleaseType": "Selecione um tipo de lançamento",
+      "Filter": "Filtrar",
+      "Or": "ou",
+      "From": "de",
+      "Until": "até"
+    }
+  }
+}

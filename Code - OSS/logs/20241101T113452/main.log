@@ -1,0 +1,11 @@
+2024-11-01 11:34:52.531 [info] update#setState disabled
+2024-11-01 11:34:52.533 [info] update#ctor - updates are disabled as there is no update URL
+2024-11-01 11:35:04.848 [info] Extension host with pid 677186 exited with code: 0, signal: unknown.
+2024-11-01 11:35:04.866 [error] [UtilityProcessWorker]: terminated unexpectedly with code 18446744072266742000, signal: unknown
+2024-11-01 11:35:17.511 [info] Extension host with pid 677263 exited with code: 0, signal: unknown.
+2024-11-01 11:35:17.539 [error] [UtilityProcessWorker]: terminated unexpectedly with code 18446744072266742000, signal: unknown
+2024-11-01 15:15:16.583 [info] Extension host with pid 677319 exited with code: 0, signal: unknown.
+2024-11-01 16:51:50.691 [info] Extension host with pid 719740 exited with code: 0, signal: unknown.
+2024-11-02 04:15:36.785 [info] Extension host with pid 717369 exited with code: 0, signal: unknown.
+2024-11-02 04:15:36.839 [error] [UtilityProcessWorker]: terminated unexpectedly with code 18446744072266742000, signal: unknown
+2024-11-02 04:15:37.474 [info] Extension host with pid 719796 exited with code: 0, signal: unknown.

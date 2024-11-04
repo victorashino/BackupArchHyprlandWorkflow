@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>System Info</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center; /* Alinha verticalmente */
+            align-items: center; /* Alinha horizontalmente */
+            height: 100vh; /* Usa 100% da altura da viewport */
+            margin: 0; /* Remove a margem padrão do body */
+            background-color: #000; /* Mantém o fundo preto */
+        }
+
+        .ascii-art {
+            text-align: center; /* Centraliza o texto dentro deste contêiner */
+            margin-top: 20px; /* Adiciona um espaço acima do ASCII art */
+            color: #0f0; /* Define a cor do texto, se desejado */
+        }
+    </style>
+</head>
+<body>
+    <p>SYSTEM INFO</p>
+    <div class="info">
+        <div><strong>Operating System:</strong> {{OS}}</div>
+        <div><strong>Kernel:</strong> {{KERNEL}}</div>
+        <div><strong>Shell:</strong> {{SHELL}}</div>
+        <div><strong>Desktop Environment:</strong> {{DE}}</div>
+        <div><strong>Terminal:</strong> {{TERMINAL}}</div>
+        <div><strong>System Uptime:</strong> {{UPTIME}}</div>
+    </div>
+
+    <div class="ascii-art">
+        <pre>
+ ____________________ 
+< é nois que voa lek >
+ -------------------- 
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+        </pre>
+    </div>
+    
+    <script src="script.js"></script> <!-- Adicione seu script aqui -->
+</body>
+</html>

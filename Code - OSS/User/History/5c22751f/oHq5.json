@@ -1,0 +1,89 @@
+{
+    "Initial": {
+        "openAccount": "Abrir cuenta",
+        "alreadyHaveAccount": "Ya tengo una cuenta",
+        "needHelp": "¿Necesitas ayuda?"
+    },
+    "Register": {
+        "Notice": {
+            "title": "¡Lee, es importante!",
+            "welcome": "Nos complace darte la bienvenida. Aquí, la excelencia en servicios financieros se encuentra con la exclusividad para nuestros invitados más especiales.",
+            "accountOpening1": "Abrir una cuenta con nosotros es un privilegio exclusivo reservado para aquellos que han recibido nuestro codiciado código de invitación.",
+            "accountOpening2": "Si eres uno de esos privilegiados, procede para iniciar el proceso y desbloquear el acceso a los beneficios exclusivos que te esperan.",
+            "commitment": "Estamos comprometidos a ofrecer soluciones financieras personalizadas, diseñadas para satisfacer tus necesidades individuales con la máxima conveniencia y eficiencia.",
+            "welcomeMessage": "Bienvenido a nuestra comunidad exclusiva. Si has sido invitado, da el primer paso hacia una nueva experiencia financiera.",
+            "notInvited": "Aún no he sido invitado",
+            "haveCode": "Tengo el código de invitación"
+        }
+    },
+
+
+    "Pix": {
+      "Index": {
+        "title": "Área Pix",
+        "description": "Realiza el envío y recepción de pagos en cualquier momento, las 24 horas del día, todos los días de la semana.",
+        "placeholder": "Clave Pix",
+        "keyType": "Teléfono, CPF/CNPJ, correo electrónico, clave aleatoria o",
+        "alsoUse": "USAR TAMBIÉN",
+        "button": {
+          "send": "Enviar Pix",
+          "savedContacts": "Mis contactos guardados",
+          "myPixKeys": "Mis claves Pix",
+          "deposit": "Depositar",
+          "payWithQrCode": "Pagar con código QR",
+          "pixCopyPaste": "Copiar y pegar Pix"
+        },
+        "lastTransfers": "Últimas transferencias:",
+        "modal": {
+          "message": "Seleccione el tipo de clave:",
+          "cpf": "CPF",
+          "phone": "Teléfono"
+        }
+      },
+      "InfoPaymentPix": {
+        "title": "Área Pix",
+        "accountBalance": "Saldo en cuenta: ",
+        "verifyInfos": "Verifica la información del destinatario de tu PIX a continuación:",
+        "to": "Para: ",
+        "cpf_cnpj": "CPF/CNPJ: ",
+        "bankLabel": "Banco",
+        "pixKey": "Clave Pix",
+        "saveContact": "Guardar este contacto para futuras transferencias",
+        "defineValue": "Establecer el valor:",
+        "currencyCode": "R$",
+        "placeholderAmount": "0.00",
+        "addInfo": "¿Deseas agregar alguna información al comprobante?",
+        "descriptionPlaceholder": "Descripción",
+        "proceedToReview": "Continuar para revisión"
+      },
+      "RevisionPaymentPix": {
+        "title": "Revisión",
+        "instructions": "Para continuar, verifica y confirma la información.",
+        "warning": {
+          "attentionImage": "@/assets/home/areaPix/atention1.png",
+          "exclamationImage": "@/assets/home/areaPix/exclamacao.png",
+          "text": "Antes de finalizar la operación, verifica cuidadosamente la información, ya que el débito completado no se puede revertir."
+        },
+        "info": {
+          "to": "Para: ",
+          "cpfCnpj": "CPF/CNPJ: ",
+          "bank": "Banco ",
+          "pixKey": "Clave Pix: ",
+          "value": "Valor: ",
+          "date": "Fecha: "
+        },
+        "button": {
+          "text": "Continuar para revisión"
+        }
+      }
+    },
+    "Companies": {},
+    "Deposit": {},
+    "Extract": {},
+    "Notification": {},
+    "Payment": {},
+    "ResendRegistration": {},
+    "Tabs": {},
+    "TedTransfer": {}
+  }
+  

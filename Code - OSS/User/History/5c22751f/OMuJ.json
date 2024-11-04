@@ -1,0 +1,59 @@
+{
+    "Pix": {
+        "ScreenTitle": "Área Pix",
+        "SendPayments": "Realiza el envío y la recepción de pagos en cualquier momento, 24 horas al día, todos los días de la semana.",
+        "MaskInputPlaceHolder": "Clave Pix",
+        "SendPix": "Enviar Pix",
+        "KeyType": "Teléfono móvil, CPF/CNPJ, correo electrónico, clave aleatoria o",
+        "PixCopyPaste": "Pix copiar y pegar",
+        "Contacts": "Mis contactos guardados",
+        "LatestTransfers": "Últimas transferencias",
+        "AlsoUse": "USA TAMBIÉN",
+        "MyPixKeys": "Mis claves Pix",
+        "Deposit": "Depositar",
+        "PayWithQRCode": "Pagar con QR Code",
+
+        "SelectKeyType": "Selecciona el tipo de clave:",
+        "CPF": "CPF",
+        "Celular": "Teléfono móvil",
+
+        "InfoPaymentPix": {
+            "ScreenTitle": "Área Pix",
+            "AccountBalance": "Saldo em Conta: ",
+            "VerifyInfos": "Verifique as informações do destinatário do seu PIX"
+        },
+
+        "SelectContatctList": "Selecciona de tu lista de contactos guardados a quién quieres enviar el Pix.",
+        "MyContacts": "Mis Contactos",
+        "PixKeyCoppy": "¡Clave Pix copiada con éxito!",
+        "DelectContact": "Contacto eliminado con éxito"
+    },
+    "Companies": {
+
+    },
+    "Deposit": {
+
+    },
+    "Extract": {
+        
+    },
+    "Notification": {
+        
+    },
+    "Payment": {
+        
+    },
+    "Register": {
+        
+    },
+    "ResendRegistration": {
+        
+    },
+    "Tabs": {
+        
+    },
+    "TedTransfer": {
+        
+    }
+}
+  

@@ -1,0 +1,203 @@
+{
+  "Initial": {
+    "openAccount": "Abrir cuenta",
+    "alreadyHaveAccount": "Ya tengo cuenta",
+    "needHelp": "¿Necesitas ayuda?"
+  },
+  "Register": {
+    "Notice": {
+      "title": "¡Lee, es importante!",
+      "welcome": "Nos complace darte la bienvenida. Aquí, la excelencia en servicios financieros se encuentra con la exclusividad para nuestros invitados más especiales.",
+      "accountOpening1": "Abrir una cuenta con nosotros es un privilegio exclusivo reservado para aquellos que han recibido nuestro codiciado código de invitación.",
+      "accountOpening2": "Si eres uno de esos privilegiados, sigue adelante para comenzar el proceso y desbloquear el acceso a los beneficios exclusivos que te esperan.",
+      "commitment": "Estamos comprometidos a ofrecer soluciones financieras personalizadas, diseñadas para satisfacer tus necesidades individuales con la máxima comodidad y eficiencia.",
+      "welcomeMessage": "Bienvenido a nuestra comunidad exclusiva. Si has sido invitado, da el primer paso hacia una nueva experiencia financiera.",
+      "notInvited1": "Aún no",
+      "notInvited2": "he sido invitado",
+      "haveCode1": "Tengo el",
+      "haveCode2": "código de invitación"
+    },
+    "Code": {
+      "inviteCodeInstruction": "Ingresa el código de invitación recibido en tu correo electrónico.",
+      "proceed": "Continuar",
+      "invalidCodeAlert": "*Código incorrecto, inténtalo de nuevo.",
+      "LimitExceeded": {
+        "title": "Has superado el límite de intentos :(",
+        "message": "Has superado el límite de intentos y tu apertura de cuenta está bloqueada.",
+        "contact": "Contáctanos a través de nuestros canales de comunicación y solicita un nuevo código de invitación.",
+        "backToHome": "Volver a la pantalla de inicio"
+      }
+    },
+    "Register": {
+      "progress": "10%",
+      "openAccount": "Abrir mi cuenta",
+      "enterDataBelow": "Proporcione los datos a continuación:",
+      "fullName": "Nombre completo*:",
+      "cpf": "CPF*:",
+      "cellPhone": "Celular*:",
+      "email": "Correo electrónico*:",
+      "proceed": "Continuar",
+      "incorrectInformation": "*Información incorrecta."
+    },
+    "Password": {
+      "progress": "20%",
+      "openAccount": "Abrir mi cuenta",
+      "createPassword": "Crea una contraseña:",
+      "mustContainMoreThan6Characters": "Debe contener 6 o más caracteres",
+      "mustContainLetters": "Debe contener letras",
+      "mustContainNumbers": "Debe contener números",
+      "password": "Contraseña:",
+      "confirmPassword": "Confirmar contraseña:",
+      "proceed": "Continuar",
+      "passwordsDifferent": "*Las contraseñas son diferentes."
+    },
+    "RegisterInformation": {
+      "progress": "30%",
+      "openAccount": "Abrir mi cuenta",
+      "tellUsMoreAboutYou": "Cuéntanos más sobre ti:",
+      "motherName": "Nombre de la madre*:",
+      "gender": "Sexo*:",
+      "maritalStatus": "Estado civil*:",
+      "birthDate": "Fecha de nacimiento*:",
+      "nationality": "Nacionalidad*:",
+      "birthState": "Estado de nacimiento:",
+      "birthCity": "Ciudad de nacimiento:",
+      "proceed": "Continuar",
+      "selectYourGender": "Selecciona tu sexo:",
+      "female": "Femenino",
+      "male": "Masculino",
+      "other": "Otros",
+      "selectYourMaritalStatus": "Selecciona tu estado civil:",
+      "single": "Soltero(a)",
+      "married": "Casado(a)",
+      "divorced": "Divorciado(a)",
+      "widowed": "Viudo(a)",
+      "confirm": "Confirmar"
+    },
+    "Profession": {
+      "progress": "40%",
+      "openAccount": "Abrir mi cuenta",
+      "tellUsMoreAboutYou": "Cuéntanos más sobre ti:",
+      "politicallyExposed": "¿Eres una persona políticamente expuesta?",
+      "yes": "Sí",
+      "no": "No",
+      "profession": "Profesión*:",
+      "approximateMonthlyIncome": "Ingresos mensuales aproximados*:",
+      "proceed": "Continuar"
+    },
+    "Address": {
+      "progress": "50%",
+      "openAccount": "Abrir mi cuenta",
+      "yourAddress": "¿Cuál es tu dirección?",
+      "zipCode": "Código postal*:",
+      "street": "Calle*:",
+      "number": "Número*:",
+      "complement": "Complemento:",
+      "neighborhood": "Barrio*:",
+      "city": "Ciudad*:",
+      "state": "Estado*:",
+      "proceed": "Continuar",
+      "completeAllFields": "*Completa todos los campos."
+    },
+    "Identification": {
+      "progress": "60%",
+      "openAccount": "Abrir mi cuenta",
+      "documentPhotos": "Fotos del documento",
+      "valuableTips": "Algunos consejos valiosos:",
+      "goodLighting": "Toma la foto en un lugar bien iluminado.",
+      "clearPhoto": "Asegúrate de que la foto esté nítida y capture todo el documento sin recortes.",
+      "adjustPoints": "Usa los dedos para ajustar los cuatro puntos para que coincidan con las cuatro esquinas del documento.",
+      "chooseIdentification": "Elige un documento de identificación:",
+      "rg": "RG",
+      "cnh": "CNH",
+      "proceed": "Continuar"
+    },
+    "FrontalPhotoInfo": {
+      "progress": "70%",
+      "openAccount": "Abrir mi cuenta",
+      "documentPhotos": "Fotos del documento",
+      "frontPhotoInstructions": "Toma la foto del frente de tu documento",
+      "removeFromPlastic": "Retira el documento del plástico",
+      "faceUp": "Deja el lado del documento mirando hacia arriba",
+      "checkFocus": "Verifica que la imagen no esté desenfocada",
+      "frontOnly": "Toma la foto solo de la parte frontal del documento",
+      "proceed": "Continuar"
+    },
+    "FrontalPhoto": {
+      "progress": "70%",
+      "openAccount": "Abrir mi cuenta",
+      "frontPhoto": "Foto frontal del documento",
+      "redoPhoto": "Rehacer foto",
+      "proceed": "Continuar"
+    },
+    "BackPhotoInfo": {
+      "progress": "80%",
+      "openAccount": "Abrir mi cuenta",
+      "documentPhotos": "Fotos del documento",
+      "backPhotoInstructions": "Toma la foto del reverso de tu documento",
+      "removeFromPlastic": "Retira el documento del plástico",
+      "backSideUp": "Deja el lado del documento con el reverso hacia arriba",
+      "checkFocus": "Verifica que la imagen no esté desenfocada",
+      "backOnly": "Toma la foto solo de la parte trasera del documento",
+      "proceed": "Continuar"
+    },
+    "BackPhoto": {
+      "progress2": "80%",
+      "openAccount2": "Abrir mi cuenta",
+      "backPhoto": "Fotos del reverso del documento",
+      "redoPhoto": "Rehacer foto",
+      "proceed2": "Continuar"
+    },
+    "SelfieInfo": {
+      "progress": "90%",
+      "openAccount": "Abrir mi cuenta",
+      "documentPhotos": "Fotos del documento",
+      "selfieInstructions": "Toma una selfie con tu documento",
+      "findWellLitPlace": "Ve a un lugar iluminado",
+      "removeAccessories": "Retira todos los accesorios, como gorra, gafas y muestra bien el rostro",
+      "holdDocument": "Sostén el documento con una de las manos",
+      "documentPosition": "El documento debe estar junto a tu rostro con la parte de la foto hacia adelante",
+      "proceed": "Continuar"
+    },
+    "SelfiePhoto": {
+      "progress": "90%",
+      "openAccount": "Abrir mi cuenta",
+      "selfieWithDocument": "Selfie con el documento",
+      "redoPhoto": "Rehacer foto",
+      "proceed": "Continuar"
+    },
+    "Document": {
+      "progress": "100%",
+      "openAccount": "Abrir mi cuenta",
+      "almostThere": "¡Estamos casi allí!",
+      "documentDetails": "Proporciona los datos del documento:",
+      "documentNumber": "Número del documento*:",
+      "issuer": "Órgano emisor*:",
+      "issueDate": "Fecha de emisión*:",
+      "issueState": "Estado de emisión*:",
+      "termsAndConditions": "Accede a los términos y condiciones de uso >",
+      "agreeTerms": "He leído y acepto los términos y condiciones de uso",
+      "proceed": "Continuar"
+    },
+    "Loading": {
+      "waitingMessage": "Por favor, espera en esta pantalla mientras Atlo envía tus datos, ¿de acuerdo? ;)"
+    },
+    "Congratulations": {
+      "progress": "100%",
+      "congratulations": "¡Felicidades!",
+      "submissionMessage": "Tus datos han sido enviados para su análisis.",
+      "approvalMessage": "Una vez que la cuenta sea aprobada, recibirás un correo electrónico de bienvenida informándote sobre la apertura de tu cuenta.",
+      "finish": "Finalizar",
+      "waitingMessage": "Por favor, espera en esta pantalla mientras Atlo envía tus datos, ¿de acuerdo? ;)"
+    }
+  },
+  "Pix": {},
+  "Companies": {},
+  "Deposit": {},
+  "Extract": {},
+  "Notification": {},
+  "Payment": {},
+  "ResendRegistration": {},
+  "Tabs": {},
+  "TedTransfer": {}
+}

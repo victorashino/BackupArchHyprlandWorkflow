@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #DBDCDE;
+}
+
+#amount {
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+#line {
+    height: 1px;
+    background-color: #DBDCDE;
+    width: 200px;
+    margin: 20px auto; /* Ajusta a margem para centralizar o line */
+}
+
+header img {
+    max-width: 100%; /* Garante que a logo não ultrapasse o limite do contêiner */
+}
+
+#amountText {
+    font-size: 16px;
+    color: #243060;
+    font-weight: 600;
+    text-align: center;
+}
+
+.info-container {
+    display: flex;
+    justify-content: flex-start; /* Alinha itens à esquerda, ajuste se necessário */
+    align-items: center; /* Alinha verticalmente no centro */
+    margin-bottom: 10px; /* Espaço entre as linhas de informação */
+}
+
+p {
+    font-size: 16px;
+    color: #243060;
+    font-weight: 600;
+    margin: 0;
+}
+
+.value {
+    color: #333;
+    display: inline;
+    margin-left: 10px; /* Espaço entre o texto e o valor */
+}
+
+.barcode {
+    font-size: 20px;
+    text-align: center;
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid #000;
+    display: inline-block;
+    font-weight: bold;
+    color: #333;
+}
+
+footer {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 12px;
+    color: #999;
+}

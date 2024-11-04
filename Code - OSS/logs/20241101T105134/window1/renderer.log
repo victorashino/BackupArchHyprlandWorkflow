@@ -1,0 +1,11 @@
+2024-11-01 10:51:35.315 [info] Initial editor state {"filesToOpenOrCreate":[{"fileUri":{"$mid":1,"path":"/home/bicutoru/.config/waybar/config.jsonc","scheme":"file"},"type":1,"exists":true,"options":{}}],"filesToDiff":[],"filesToMerge":[]}
+2024-11-01 10:51:35.838 [info] Started local extension host with pid 674963.
+2024-11-01 10:51:38.641 [info] [perf] Render performance baseline is 52ms
+2024-11-01 10:52:48.799 [warning] [backup tracker] suspended, ignoring register event vscode-userdata:/home/bicutoru/.config/Code%20-%20OSS/User/settings.json 
+2024-11-01 10:52:48.804 [warning] [backup tracker] suspended, ignoring unregister event vscode-userdata:/home/bicutoru/.config/Code%20-%20OSS/User/settings.json 
+2024-11-01 10:52:48.806 [warning] [backup tracker] suspended, ignoring register event vscode-userdata:/home/bicutoru/.config/Code%20-%20OSS/User/settings.json 
+2024-11-01 10:52:48.813 [warning] [backup tracker] suspended, ignoring unregister event vscode-userdata:/home/bicutoru/.config/Code%20-%20OSS/User/settings.json 
+2024-11-01 10:52:48.818 [warning] [backup tracker] suspended, ignoring register event vscode-userdata:/home/bicutoru/.config/Code%20-%20OSS/User/settings.json 
+2024-11-01 10:52:48.824 [warning] [backup tracker] suspended, ignoring unregister event vscode-userdata:/home/bicutoru/.config/Code%20-%20OSS/User/settings.json 
+2024-11-01 10:52:50.370 [info] Started local extension host with pid 675104.
+2024-11-01 10:52:53.872 [info] [perf] Render performance baseline is 39ms

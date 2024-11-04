@@ -1,0 +1,14 @@
+2024-11-01 00:39:05.785 [info] Extension host with pid 653439 started
+2024-11-01 00:39:05.884 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-11-01 00:39:05.920 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-11-01 00:39:05.949 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-11-01 00:39:06.011 [info] Eager extensions activated
+2024-11-01 00:39:06.047 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-11-01 00:39:06.048 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-11-01 00:39:06.053 [info] ExtensionService#_doActivateExtension castrogusttavo.symbols, startup: false, activationEvent: 'onStartupFinished'
+2024-11-01 00:39:06.178 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-11-01 00:39:06.183 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-11-01 00:39:06.208 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-11-01 00:39:06.246 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-11-01 00:39:09.953 [info] Extension host terminating: renderer closed the MessagePort
+2024-11-01 00:39:09.970 [info] Extension host with pid 653439 exiting with code 0

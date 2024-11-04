@@ -1,0 +1,69 @@
+{
+    "Global": {
+        "CurrencyCode": "R$"        
+    },
+    "Pix": {
+        "Index": {
+            "ScreenTitle": "Área pix",
+            "SendPayments": "Realize o envio e o recebimento de pagamentos em qualquer momento, 24horas por dia, todos os dias da semana.",
+            "MaskInputPlaceHolder": "Chave Pix",
+            "SendPix": "Enviar pix",
+            "KeyType": "Celular, CPF/CNPJ, e-mail, chave aleatória ou",
+            "PixCopyPaste": "Pix copia e cola",
+            "Contacts": "Meus contatos salvos",
+            "LatestTransfers": "Últimas transferências",
+            "AlsoUse": "USE TAMBÉM",
+            "MyPixKeys": "Minhas chaves Pix",
+            "Deposit": "Depositar",
+            "PayWithQRCode": "Pagar com QR Code",
+
+            "SelectKeyType": "Selecione o tipo de chave:",
+            "CPF": "CPF",
+            "Celular": "Celular",
+
+            "SelectContatctList": "Selecione da sua lista de contatos salvos para quem você quer fazer o Pix.",
+            "MyContacts": "Meus Contatos",
+            "PixKeyCoppy": "Chave Pix copiada com sucesso!",
+            "DelectContact": "Contato deletado com sucesso"
+
+        },
+        
+        "InfoPaymentPix": {
+            "ScreenTitle": "Área Pix",
+            "AccountBalance": "Saldo em Conta: ",
+            "VerifyInfos": "Verifique as informações do destinatário do seu PIX",
+            "CurrencyCode": "R$",
+            "To": "Para: ",
+            "CPFCNPJ": "CPF/CNPJ: ",
+            "BankLabel": "Bco"
+        }
+    },
+    "Companies": {
+
+    },
+    "Deposit": {
+
+    },
+    "Extract": {
+        
+    },
+    "Notification": {
+        
+    },
+    "Payment": {
+        
+    },
+    "Register": {
+        
+    },
+    "ResendRegistration": {
+        
+    },
+    "Tabs": {
+        
+    },
+    "TedTransfer": {
+        
+    }
+}
+  

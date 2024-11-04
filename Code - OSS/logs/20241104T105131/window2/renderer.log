@@ -1,0 +1,5 @@
+2024-11-04 12:14:50.495 [info] Started local extension host with pid 810618.
+2024-11-04 12:14:53.313 [info] [perf] Render performance baseline is 43ms
+2024-11-04 12:15:01.948 [warning] [backup tracker] suspended, ignoring register event vscode-userdata:/home/bicutoru/.config/Code%20-%20OSS/User/settings.json 
+2024-11-04 12:15:02.789 [info] Started local extension host with pid 810685.
+2024-11-04 12:15:07.661 [info] [perf] Render performance baseline is 54ms

@@ -1,0 +1,217 @@
+{
+  "Initial": {
+    "openAccount": "Open Account",
+    "alreadyHaveAccount": "Already have an account",
+    "needHelp": "Need help?"
+  },
+  "Register": {
+    "Notice": {
+      "title": "Read, it's important!",
+      "welcome": "We are delighted to welcome you. Here, excellence in financial services meets exclusivity for our most special guests.",
+      "accountOpening1": "Opening an account with us is an exclusive privilege reserved for those who have received our coveted invitation code.",
+      "accountOpening2": "If you are one of these privileged individuals, proceed to start the process and unlock access to the exclusive benefits awaiting you.",
+      "commitment": "We are committed to providing personalized financial solutions designed to meet your individual needs with the utmost convenience and efficiency.",
+      "welcomeMessage": "Welcome to our exclusive community. If you were invited, take the first step towards a new financial experience.",
+      "notInvited1": "Not yet",
+      "notInvited2": "invited",
+      "haveCode1": "I have the",
+      "haveCode2": "invitation code"
+    },
+    "Code": {
+      "inviteCodeInstruction": "Enter the invitation code received in your email.",
+      "proceed": "Proceed",
+      "invalidCodeAlert": "*Incorrect code, please try again.",
+      "LimitExceeded": {
+        "title": "You have exceeded the number of attempts :(",
+        "message": "You have exceeded the number of attempts and your account opening is blocked.",
+        "contact": "Contact us through our communication channels and request a new invitation code.",
+        "backToHome": "Back to home screen"
+      }
+    },
+    "Register": {
+      "progress": "10%",
+      "openAccount": "Open my account",
+      "enterDataBelow": "Enter the information below:",
+      "fullName": "Full name*:",
+      "cpf": "CPF*:",
+      "cellPhone": "Cell phone*:",
+      "email": "Email*:",
+      "proceed": "Proceed",
+      "incorrectInformation": "*Incorrect information."
+    },
+    "Password": {
+      "progress": "20%",
+      "openAccount": "Open my account",
+      "createPassword": "Create a password:",
+      "mustContainMoreThan6Characters": "Must contain 6 or more characters",
+      "mustContainLetters": "Must contain letters",
+      "mustContainNumbers": "Must contain numbers",
+      "password": "Password:",
+      "confirmPassword": "Confirm password:",
+      "proceed": "Proceed",
+      "passwordsDifferent": "*Passwords are different."
+    },
+    "RegisterInformation": {
+      "progress": "30%",
+      "openAccount": "Open my account",
+      "tellUsMoreAboutYou": "Tell us more about you:",
+      "motherName": "Mother's name*:",
+      "gender": "Gender*:",
+      "maritalStatus": "Marital status*:",
+      "birthDate": "Date of birth*:",
+      "nationality": "Nationality*:",
+      "birthState": "State of birth:",
+      "States": {
+        "acre": "Acre (AC)",
+        "alagoas": "Alagoas (AL)",
+        "amazonas": "Amazonas (AM)",
+        "amapa": "Amapá (AP)",
+        "bahia": "Bahia (BA)",
+        "ceara": "Ceará (CE)",
+        "matoGrossoDoSul": "Mato Grosso do Sul (MS)",
+        "espiritoSanto": "Espírito Santo (ES)",
+        "goias": "Goiás (GO)",
+        "maranhao": "Maranhão (MA)",
+        "minasGerais": "Minas Gerais (MG)",
+        "para": "Pará (PA)",
+        "paraiba": "Paraíba (PB)"
+      },
+      "proceed": "Proceed",
+      "selectYourGender": "Select your gender:",
+      "female": "Female",
+      "male": "Male",
+      "other": "Other",
+      "selectYourMaritalStatus": "Select your marital status:",
+      "single": "Single",
+      "married": "Married",
+      "divorced": "Divorced",
+      "widowed": "Widowed",
+      "confirm": "Confirm"
+    },
+    "Profession": {
+      "progress": "40%",
+      "openAccount": "Open my account",
+      "tellUsMoreAboutYou": "Tell us more about you:",
+      "politicallyExposed": "Are you a politically exposed person?",
+      "yes": "Yes",
+      "no": "No",
+      "profession": "Profession*:",
+      "approximateMonthlyIncome": "Approximate monthly income*:",
+      "proceed": "Proceed"
+    },
+    "Address": {
+      "progress": "50%",
+      "openAccount": "Open my account",
+      "yourAddress": "What is your address?",
+      "zipCode": "ZIP Code*:",
+      "street": "Street*:",
+      "number": "Number*:",
+      "complement": "Complement:",
+      "neighborhood": "Neighborhood*:",
+      "city": "City*:",
+      "state": "State*:",
+      "proceed": "Proceed",
+      "completeAllFields": "*Complete all fields."
+    },
+    "Identification": {
+      "progress": "60%",
+      "openAccount": "Open my account",
+      "documentPhotos": "Document Photos",
+      "valuableTips": "Some valuable tips:",
+      "goodLighting": "Take the photo in a well-lit place.",
+      "clearPhoto": "Ensure the photo is clear and captures the entire document without cuts.",
+      "adjustPoints": "Use your fingers to adjust the four points to match the four corners of the document.",
+      "chooseIdentification": "Choose an identification document:",
+      "rg": "RG",
+      "cnh": "CNH",
+      "proceed": "Proceed"
+    },
+    "FrontalPhotoInfo": {
+      "progress": "70%",
+      "openAccount": "Open my account",
+      "documentPhotos": "Document Photos",
+      "frontPhotoInstructions": "Take a photo of the front of your document",
+      "removeFromPlastic": "Remove the document from the plastic",
+      "faceUp": "Place the document face up",
+      "checkFocus": "Make sure the image is not out of focus",
+      "frontOnly": "Take a photo only of the front of the document",
+      "proceed": "Proceed"
+    },
+    "FrontalPhoto": {
+      "progress": "70%",
+      "openAccount": "Open my account",
+      "frontPhoto": "Front photo of the document",
+      "redoPhoto": "Redo photo",
+      "proceed": "Proceed"
+    },
+    "BackPhotoInfo": {
+      "progress": "80%",
+      "openAccount": "Open my account",
+      "documentPhotos": "Document Photos",
+      "backPhotoInstructions": "Take a photo of the back of your document",
+      "removeFromPlastic": "Remove the document from the plastic",
+      "backSideUp": "Place the document back side up",
+      "checkFocus": "Make sure the image is not out of focus",
+      "backOnly": "Take a photo only of the back of the document",
+      "proceed": "Proceed"
+    },
+    "BackPhoto": {
+      "progress": "80%",
+      "openAccount": "Open my account",
+      "backPhoto": "Back photo of the document",
+      "redoPhoto": "Redo photo",
+      "proceed": "Proceed"
+    },
+    "SelfieInfo": {
+      "progress": "90%",
+      "openAccount": "Open my account",
+      "documentPhotos": "Document Photos",
+      "selfieInstructions": "Take a selfie with your document",
+      "findWellLitPlace": "Go to a well-lit place",
+      "removeAccessories": "Remove all accessories, such as hats and glasses, and show your face clearly",
+      "holdDocument": "Hold the document with one hand",
+      "documentPosition": "The document should be next to your face with the photo side facing forward",
+      "proceed": "Proceed"
+    },
+    "SelfiePhoto": {
+      "progress": "90%",
+      "openAccount": "Open my account",
+      "selfieWithDocument": "Selfie with the document",
+      "redoPhoto": "Redo photo",
+      "proceed": "Proceed"
+    },
+    "Document": {
+      "progress": "100%",
+      "openAccount": "Open my account",
+      "almostThere": "Almost there!",
+      "documentDetails": "Enter the document details:",
+      "documentNumber": "Document number*:",
+      "issuer": "Issuing authority*:",
+      "issueDate": "Issue date*:",
+      "issueState": "Issue state*:",
+      "termsAndConditions": "View terms and conditions >",
+      "agreeTerms": "I have read and agree to the terms and conditions",
+      "proceed": "Proceed"
+    },
+    "Loading": {
+      "waitingMessage": "Please wait on this screen while Atlo sends your data, okay? ;)"
+    },
+    "Congratulations": {
+      "progress": "100%",
+      "congratulations": "Congratulations!",
+      "submissionMessage": "Your data has been submitted for review.",
+      "approvalMessage": "Once the account is approved, you will receive a welcome email informing you about the opening of your account.",
+      "finish": "Finish",
+      "waitingMessage": "Please wait on this screen while Atlo sends your data, okay? ;)"
+    }
+  },
+  "Pix": {},
+  "Companies": {},
+  "Deposit": {},
+  "Extract": {},
+  "Notification": {},
+  "Payment": {},
+  "ResendRegistration": {},
+  "Tabs": {},
+  "TedTransfer": {}
+}

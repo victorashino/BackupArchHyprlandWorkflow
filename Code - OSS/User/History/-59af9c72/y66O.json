@@ -1,0 +1,89 @@
+{
+  "expo": {
+    "name": "Atlas",
+    "slug": "app-atlas-finance",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Permita que a Atlas acesse sua câmera."
+        }
+      ],
+      [
+        "expo-media-library",
+        {
+          "photosPermission": "Permita que a Atlas acesse suas fotos.",
+          "savePhotosPermission": "Permita que a Atlas salve fotos.",
+          "isAccessMediaLocationEnabled": true
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "O app acessa suas fotos para permitir que você as compartilhe com seus amigos."
+        }
+      ],
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "compileSdkVersion": 34,
+            "targetSdkVersion": 34,
+            "buildToolsVersion": "34.0.0"
+          },
+          "ios": {
+            "deploymentTarget": "13.4"
+          }
+        }
+      ],
+      "expo-font"
+    ],
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#C8D753"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSPhotoLibraryUsageDescription": "Permita que a Atlas acesse suas fotos.",
+        "NSPhotoLibraryAddUsageDescription": "Permita que a Atlas salve fotos.",
+        "NSCameraUsageDescription": "Permita que a Atlas acesse a câmera.",
+        "NSMicrophoneUsageDescription": "Permita que a Atlas acesse seu microfone."
+      },
+      "bundleIdentifier": "com.appatlasfx.appatlasfinance"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.appatlasfx.appatlasfinance",
+      "permissions": [
+        "CAMERA",
+        "RECORD_AUDIO",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE",
+        "ACCESS_MEDIA_LOCATION"
+      ],
+      "googleServicesFile": "./android/app/google-services.json"
+    },
+    "web": {
+      "favicon": "./assets/icon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "3b7e5480-0692-4098-9dfc-91bb6c585344"
+      }
+    },
+    "runtimeVersion": "1.0.0",
+    "updates": {
+      "url": "https://u.expo.dev/3b7e5480-0692-4098-9dfc-91bb6c585344"
+    },
+    "owner": "flavio-gimenez"
+  }
+}

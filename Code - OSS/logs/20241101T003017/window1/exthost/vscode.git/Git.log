@@ -1,0 +1,42 @@
+2024-11-01 00:30:20.087 [info] [main] Log level: Info
+2024-11-01 00:30:20.087 [info] [main] Validating found git in: "git"
+2024-11-01 00:30:20.087 [info] [main] Using git "2.47.0" from "git"
+2024-11-01 00:30:20.087 [info] [Model][doInitialScan] Initial repository scan started
+2024-11-01 00:30:20.087 [info] > git rev-parse --show-toplevel [35ms]
+2024-11-01 00:30:20.087 [info] > git rev-parse --git-dir --git-common-dir [7ms]
+2024-11-01 00:30:20.087 [info] [Model][openRepository] Opened repository: /home/bicutoru/Documents/AtlasFinanceApp/AtlasFx-AppBase
+2024-11-01 00:30:20.118 [info] > git rev-parse --show-toplevel [9ms]
+2024-11-01 00:30:20.122 [info] > git config --get commit.template [24ms]
+2024-11-01 00:30:20.152 [info] > git rev-parse --show-toplevel [20ms]
+2024-11-01 00:30:20.193 [info] > git rev-parse --show-toplevel [30ms]
+2024-11-01 00:30:20.193 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/FEAT/Home refs/remotes/FEAT/Home [48ms]
+2024-11-01 00:30:20.262 [info] > git rev-parse --show-toplevel [5ms]
+2024-11-01 00:30:20.446 [info] > git status -z -uall [136ms]
+2024-11-01 00:30:20.507 [info] > git rev-parse --show-toplevel [217ms]
+2024-11-01 00:30:20.508 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-11-01 00:30:20.543 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/FEAT/Home refs/remotes/FEAT/Home [63ms]
+2024-11-01 00:30:20.580 [info] > git config --get commit.template [47ms]
+2024-11-01 00:30:20.657 [info] > git config --local branch.FEAT/Home.vscode-merge-base [95ms]
+2024-11-01 00:30:20.801 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/FEAT/Home refs/remotes/FEAT/Home [123ms]
+2024-11-01 00:30:20.802 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [134ms]
+2024-11-01 00:30:21.031 [info] > git check-ignore -v -z --stdin [171ms]
+2024-11-01 00:30:21.034 [info] > git merge-base refs/heads/FEAT/Home refs/remotes/origin/FEAT/Home [193ms]
+2024-11-01 00:30:21.062 [info] > git rev-list --count --left-right refs/heads/FEAT/Home...refs/remotes/origin/FEAT/Home [14ms]
+2024-11-01 00:30:21.081 [info] > git diff --name-status -z --diff-filter=ADMR 10ec14ec129014136e67f5f17f631746f6306dbd...refs/remotes/origin/FEAT/Home [2ms]
+2024-11-01 00:30:21.163 [info] > git status -z -uall [57ms]
+2024-11-01 00:30:21.199 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/FEAT/Home refs/remotes/FEAT/Home [20ms]
+2024-11-01 00:30:21.220 [info] > git config --local branch.FEAT/Home.vscode-merge-base [5ms]
+2024-11-01 00:30:21.246 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [3ms]
+2024-11-01 00:30:22.151 [info] > git check-ignore -v -z --stdin [7ms]
+2024-11-01 00:30:22.791 [info] > git show --textconv :src/app/(home)/pixArea/home/index.tsx [14ms]
+2024-11-01 00:30:22.797 [info] > git ls-files --stage -- /home/bicutoru/Documents/AtlasFinanceApp/AtlasFx-AppBase/src/app/(home)/pixArea/home/index.tsx [7ms]
+2024-11-01 00:30:22.817 [info] > git cat-file -s d6db7d3c37445e75b547edbde175adfe8fcc368f [6ms]
+2024-11-01 00:30:36.217 [info] [main] Log level: Info
+2024-11-01 00:30:36.217 [info] [main] Validating found git in: "git"
+2024-11-01 00:30:36.217 [info] [main] Using git "2.47.0" from "git"
+2024-11-01 00:30:36.217 [info] [Model][doInitialScan] Initial repository scan started
+2024-11-01 00:30:36.217 [info] > git rev-parse --show-toplevel [5ms]
+2024-11-01 00:30:36.218 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (1), unsafe repositories (0)
+2024-11-01 00:30:40.265 [info] > git rev-parse --show-toplevel [2ms]
+2024-11-01 00:31:00.353 [info] > git rev-parse --show-toplevel [1ms]
+2024-11-01 00:31:11.982 [info] > git rev-parse --show-toplevel [1ms]

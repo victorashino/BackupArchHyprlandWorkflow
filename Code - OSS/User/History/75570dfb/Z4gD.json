@@ -1,0 +1,17 @@
+{
+    "languageserver": {},
+    "explorer.width": 30,
+    "explorer.icon.enableNerdfont": true,
+    "explorer.previewAction.onHover": false,
+    "explorer.keyMappings.global": {
+        "<cr>": [
+            "expandable?",
+            "expand",
+            "open"
+        ],
+        "v": "open:vsplit",
+        "h": "open:split"
+    },
+    "clangd.arguments": ["--compile-commands=/caminho/para/seu/projeto/build"],
+    "explorer.git.enable": true
+}

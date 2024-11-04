@@ -1,0 +1,6 @@
+{
+    "editor.minimap.enabled": false,
+    "explorer.confirmDelete": false,
+    "window.menuBarVisibility": "toggle",
+    "workbench.colorTheme": "Gruvbox Dark Hard"
+}

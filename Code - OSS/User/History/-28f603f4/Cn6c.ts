@@ -1,0 +1,24 @@
+import { StyleSheet } from "react-native";
+
+export const styles = StyleSheet.create({
+    userInfo: {
+        alignSelf: "auto",
+        justifyContent: "center",
+        marginTop: 70,
+        marginStart: 47
+    },
+    row: {
+        flexDirection: 'row'
+    },
+    notification: {
+        position: 'absolute', 
+        top: 110, 
+        alignSelf: "center",
+        zIndex: 10
+    },
+    title: {
+        flex: 1, 
+        textAlign: 'center'
+      },
+    
+})

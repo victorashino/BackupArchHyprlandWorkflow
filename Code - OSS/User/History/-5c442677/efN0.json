@@ -1,0 +1,228 @@
+{
+    "Initial": {
+        "openAccount": "Abrir conta",
+        "alreadyHaveAccount": "Já tenho conta",
+        "needHelp": "Precisa de ajuda?"
+    },
+    "Register": {
+      "Notice": {
+        "title": "Leia, é importante!",
+        "welcome": "É com grande satisfação que lhe damos as boas-vindas. Aqui, a excelência em serviços financeiros encontra-se com a exclusividade para os nossos convidados mais especiais.",
+        "accountOpening1": "A abertura de uma conta conosco é um privilégio exclusivo reservado para aqueles que receberam o nosso cobiçado código convite.",
+        "accountOpening2": "Se você é um desses privilegiados, siga para iniciar o processo e desbloquear acesso aos benefícios exclusivos que aguardam por você.",
+        "commitment": "Estamos comprometidos em oferecer soluções financeiras personalizadas, pensadas para atender às suas necessidades individuais com a máxima conveniência e eficiência.",
+        "welcomeMessage": "Seja bem-vindo à nossa comunidade exclusiva. Se foi convidado, dê o primeiro passo em direção a uma nova experiência financeira.",
+        "notInvited1": "Ainda não",
+        "notInvited2": "fui convidado",
+        "haveCode1": "Tenho o código",
+        "haveCode2": "de convite"
+      },
+      "Code": {
+        "inviteCodeInstruction": "Insira o código de convite recebido em seu e-mail.",
+        "proceed": "Prosseguir",
+        "invalidCodeAlert": "*Código incorreto, tente novamente.",
+        "LimitExceeded": {
+          "title": "Você excedeu o limite de tentativas :(",
+          "message": "Você excedeu o limite de tentativas e sua abertura de contas está bloqueada.",
+          "contact": "Entre em contato conosco através de nossos canais de comunicação e solicite um novo código de convite.",
+          "backToHome": "Voltar à tela inicial"
+        }
+      },
+      "Register": {
+        "progress": "10%",
+        "openAccount": "Abrir minha conta",
+        "enterDataBelow": "Informe os dados abaixo:",
+        "fullName": "Nome completo*:",
+        "cpf": "CPF*:",
+        "cellPhone": "Celular*:",
+        "email": "E-mail*:",
+        "proceed": "Prosseguir",
+        "incorrectInformation": "*Informações incorretas."
+      },
+      "Password": {
+        "progress": "20%",
+        "openAccount": "Abrir minha conta",
+        "createPassword": "Crie uma senha:",
+        "mustContainMoreThan6Characters": "Deve conter 6 ou mais caracteres",
+        "mustContainLetters": "Deve conter letras",
+        "mustContainNumbers": "Deve conter números",
+        "password": "Senha:",
+        "confirmPassword": "Confirmar senha:",
+        "proceed": "Prosseguir",
+        "passwordsDifferent": "*As senhas são diferentes."
+      },
+      "RegisterInformation": {
+        "progress": "30%",
+        "openAccount": "Abrir minha conta",
+        "tellUsMoreAboutYou": "Nos conte mais sobre você:",
+        "motherName": "Nome da mãe*:",
+        "gender": "Sexo*:",
+        "maritalStatus": "Estado civil*:",
+        "birthDate": "Data de nascimento*:",
+        "nationality": "Nacionalidade*:",
+        "birthState": "Estado de nascimento:",
+        "States": {
+          "acre": "Acre (AC)",
+          "alagoas": "Alagoas (AL)",
+          "amazonas": "Amazonas (AM)",
+          "amapa": "Amapá (AP)",
+          "bahia": "Bahia (BA)",
+          "ceara": "Ceará (CE)",
+          "matoGrossoDoSul": "Mato Grosso do Sul (MS)",
+          "espiritoSanto": "Espírito Santo (ES)",
+          "goias": "Goiás (GO)",
+          "maranhao": "Maranhão (MA)",
+          "minasGerais": "Minas Gerais (MG)",
+          "para": "Pará (PA)",
+          "paraiba": "Paraíba (PB)"
+        },
+        "proceed": "Prosseguir",
+        "selectYourGender": "Selecione seu sexo:",
+        "female": "Feminino",
+        "male": "Masculino",
+        "other": "Outros",
+        "selectYourMaritalStatus": "Selecione seu estado civil:",
+        "single": "Solteiro(a)",
+        "married": "Casado(a)",
+        "divorced": "Divorciado(a)",
+        "widowed": "Viúvo(a)",
+        "confirm": "Confirmar"
+      },
+      "Profession": {
+        "progress": "40%",
+        "openAccount": "Abrir minha conta",
+        "tellUsMoreAboutYou": "Nos conte mais sobre você:",
+        "politicallyExposed": "Você é uma pessoa politicamente exposta?",
+        "yes": "Sim",
+        "no": "Não",
+        "profession": "Profissão*:",
+        "approximateMonthlyIncome": "Renda mensal aproximada*:",
+        "proceed": "Prosseguir"
+      },
+      "Address": {
+        "progress": "50%",
+        "openAccount": "Abrir minha conta",
+        "yourAddress": "Qual o seu endereço?",
+        "zipCode": "CEP*:",
+        "street": "Logradouro*:",
+        "number": "Número*:",
+        "complement": "Complemento:",
+        "neighborhood": "Bairro*:",
+        "city": "Cidade*:",
+        "state": "UF*:",
+        "proceed": "Prosseguir",
+        "completeAllFields": "*Complete todos os campos."
+      },
+      "Identification": {
+        "progress": "60%",
+        "openAccount": "Abrir minha conta",
+        "documentPhotos": "Fotos do documento",
+        "valuableTips": "Algumas dicas valiosas:",
+        "goodLighting": "Tire a foto em um lugar bem iluminado.",
+        "clearPhoto": "Certifique-se de que a foto esteja nítida e capture todo o documento sem cortes.",
+        "adjustPoints": "Use os dedos para ajustar os quatro pontos para que eles correspondam às quatro extremidades do documento.",
+        "chooseIdentification": "Escolha um documento de identificação:",
+        "rg": "RG",
+        "cnh": "CNH",
+        "proceed": "Prosseguir"
+      },
+      "FrontalPhotoInfo": {
+        "progress": "70%",
+        "openAccount": "Abrir minha conta",
+        "documentPhotos": "Fotos do documento",
+        "frontPhotoInstructions": "Tire a foto da frente do seu documento",
+        "removeFromPlastic": "Retire o documento do plástico",
+        "faceUp": "Deixe o lado do documento virado para cima",
+        "checkFocus": "Verifique se a imagem não está sem foco",
+        "frontOnly": "Tire a foto somente da parte da frente do documento",
+        "proceed": "Prosseguir"
+      },
+      "FrontalPhoto": {
+        "progress": "70%",
+        "openAccount": "Abrir minha conta",
+        "frontPhoto": "Foto frontal do documento",
+        "redoPhoto": "Refazer foto",
+        "proceed": "Prosseguir"
+      },
+      "BackPhotoInfo": {
+        "progress": "80%",
+        "openAccount": "Abrir minha conta",
+        "documentPhotos": "Fotos do documento",
+        "backPhotoInstructions": "Tire a foto do verso do seu documento",
+        "removeFromPlastic": "Retire o documento do plástico",
+        "backSideUp": "Deixe o lado do documento virado com o verso para cima",
+        "checkFocus": "Verifique se a imagem não está sem foco",
+        "backOnly": "Tire a foto somente da parte do verso do documento",
+        "proceed": "Prosseguir"
+      },
+      "BackPhoto": {
+        "progress2": "80%",
+        "openAccount2": "Abrir minha conta",
+        "backPhoto": "Fotos do verso do documento",
+        "redoPhoto": "Refazer foto",
+        "proceed2": "Prosseguir"
+      },
+      "SelfieInfo": {
+        "progress": "90%",
+        "openAccount": "Abrir minha conta",
+        "documentPhotos": "Fotos do documento",
+        "selfieInstructions": "Tire uma selfie com seu documento",
+        "findWellLitPlace": "Vá para um local iluminado",
+        "removeAccessories": "Retire todos os acessórios, como boné, óculos e mostre bem o rosto",
+        "holdDocument": "Segure o documento com uma das mãos",
+        "documentPosition": "O documento deve estar junto do seu rosto com a parte da foto virada para frente",
+        "proceed": "Prosseguir"
+      },
+      "SelfiePhoto": {
+        "progress": "90%",
+        "openAccount": "Abrir minha conta",
+        "selfieWithDocument": "Selfie com o documento",
+        "redoPhoto": "Refazer foto",
+        "proceed": "Prosseguir"
+      },
+      "Document": {
+        "progress": "100%",
+        "openAccount": "Abrir minha conta",
+        "almostThere": "Estamos quase lá!",
+        "documentDetails": "Informe os dados do documento:",
+        "documentNumber": "Número do documento*:",
+        "issuer": "Órgão emissor*:",
+        "issueDate": "Data de emissão*:",
+        "issueState": "Estado de emissão*:",
+        "termsAndConditions": "Acesse os termos e condições de uso >",
+        "agreeTerms": "Eu li e concordo com os termos e condições de uso",
+        "proceed": "Prosseguir"
+      },
+      "Loading": {
+        "waitingMessage": "Por favor, aguarde nessa tela enquanto o Atlo envia seus dados, ok? ;)"
+      },
+      "Congratulations": {
+        "progress": "100%",
+        "congratulations": "Parabéns!",
+        "submissionMessage": "Seus dados foram enviados para análise.",
+        "approvalMessage": "Assim que a conta for aprovada, você receberá um e-mail de boas-vindas informando sobre a abertura de sua conta.",
+        "finish": "Finalizar",
+        "waitingMessage": "Por favor, aguarde nessa tela enquanto o Atlo envia seus dados, ok? ;)"
+      }
+      
+
+      
+      
+      
+      
+      
+      
+
+    },
+
+    "Pix": {},
+    "Companies": {},
+    "Deposit": {},
+    "Extract": {},
+    "Notification": {},
+    "Payment": {},
+    "ResendRegistration": {},
+    "Tabs": {},
+    "TedTransfer": {}
+  }
+  

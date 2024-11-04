@@ -1,0 +1,25 @@
+body {
+    font-family: monospace;
+    background-color: #000;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: #0f0;
+}
+
+.info {
+    margin-top: 20px;
+    color: #0f0;
+}
+
+.info div {
+    margin-bottom: 10px;
+    padding: 8px;
+    background: #b7b7b756;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    max-width: 270px;
+}

@@ -1,0 +1,71 @@
+{
+    "Pix": {
+      "Index": {
+        "title": "Pix Area",
+        "description": "Make and receive payments at any time, 24 hours a day, every day of the week.",
+        "placeholder": "Pix Key",
+        "keyType": "Phone, CPF/CNPJ, email, random key or",
+        "alsoUse": "ALSO USE",
+        "button": {
+          "send": "Send Pix",
+          "savedContacts": "My saved contacts",
+          "myPixKeys": "My Pix keys",
+          "deposit": "Deposit",
+          "payWithQrCode": "Pay with QR code",
+          "pixCopyPaste": "Pix copy and paste"
+        },
+        "lastTransfers": "Last transfers:",
+        "modal": {
+          "message": "Select the key type:",
+          "cpf": "CPF",
+          "phone": "Phone"
+        }
+      },
+      "InfoPaymentPix": {
+        "title": "Pix Area",
+        "accountBalance": "Account Balance: ",
+        "verifyInfos": "Check the recipient's PIX information below:",
+        "to": "To: ",
+        "cpf_cnpj": "CPF/CNPJ: ",
+        "bankLabel": "Bank",
+        "pixKey": "Pix Key",
+        "saveContact": "Save this contact for future transfers",
+        "defineValue": "Set the amount:",
+        "currencyCode": "R$",
+        "placeholderAmount": "0.00",
+        "addInfo": "Would you like to add any information to the receipt?",
+        "descriptionPlaceholder": "Description",
+        "proceedToReview": "Proceed to review"
+      },
+      "RevisionPaymentPix": {
+        "title": "Review",
+        "instructions": "To proceed, check and confirm the information.",
+        "warning": {
+          "attentionImage": "@/assets/home/areaPix/atention1.png",
+          "exclamationImage": "@/assets/home/areaPix/exclamacao.png",
+          "text": "Before completing the transaction, carefully confirm the information, as the completed debit cannot be reversed."
+        },
+        "info": {
+          "to": "To: ",
+          "cpfCnpj": "CPF/CNPJ: ",
+          "bank": "Bank ",
+          "pixKey": "Pix Key: ",
+          "value": "Amount: ",
+          "date": "Date: "
+        },
+        "button": {
+          "text": "Proceed to review"
+        }
+      }
+    },
+    "Companies": {},
+    "Deposit": {},
+    "Extract": {},
+    "Notification": {},
+    "Payment": {},
+    "Register": {},
+    "ResendRegistration": {},
+    "Tabs": {},
+    "TedTransfer": {}
+  }
+  
